@@ -1,0 +1,48 @@
+.TelaFinal .titulo {
+    position: absolute;
+    width: 374px;
+    height: 110px;
+    left: 0px;
+    top: 67px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    justify-content: center;
+    color: #247A6B;
+}
+
+
+.TelaFinal .filmes {
+
+  
+
+}
+
+.filmes .titulo {
+    
+    
+}
+.filmes .descricao {
+
+}
+
+.TelaFinal .reserva {
+position: absolute;
+width: 225px;
+height: 42px;
+left: 74px;
+top: 622px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+background: #E8833A;
+border-radius: 3px;
+}
