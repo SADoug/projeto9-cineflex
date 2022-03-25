@@ -1,8 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-
 import  Header from "../Header"
 import HomePage from "../HomePage";
 import TelaFinal from "../TelaAssentos";

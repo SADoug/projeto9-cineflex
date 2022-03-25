@@ -19,30 +19,22 @@ letter-spacing: 0.04em;
 color: #293845;
 }
 
-.TelaHorario .conteudo {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.TelaHorario .horario {
-    
-position: absolute;
+.Conteudo .horario {
 width: 83px;
 height: 43px;
-left: 23px;
-top: 227px;
-
+color: #FFFFFF;
 background: #E8833A;
 border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.Conteudo h1 {
-    position: absolute;
+.Conteudo  h1 {
     width: 241px;
     height: 35px;
     left: 24px;
     top: 170px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -51,17 +43,15 @@ border-radius: 3px;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
-    
     color: #293845;
 }
 
 .TelaHorario .footer {
-    position: absolute;
+    position: fixed;
 width: 375px;
 height: 117px;
 left: 0px;
 bottom: 0px;
-
 background: #DFE6ED;
 border: 1px solid #9EADBA;
 }
@@ -95,4 +85,29 @@ bottom: 14px;
 background: #FFFFFF;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 border-radius: 2px;
+}
+
+.conteudo .horario {
+    width: 83px;
+height: 43px;
+margin-left: 24px;
+margin-top: 10px;
+background: #E8833A;
+border-radius: 3px;
+}
+.conteudo .horario1 {
+    width: 83px;
+height: 43px;
+margin-left: 44px;
+margin-top: 10px;
+background: #E8833A;
+border-radius: 3px;
+}
+
+.conteudo .horarios {
+    display: flex;
+}
+
+.Conteudo {
+  margin-top: 117px;
 }
