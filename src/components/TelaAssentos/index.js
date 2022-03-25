@@ -1,30 +1,22 @@
 import "./style.css";
 
-function TelaFinal() {
+function TelaAssentos() {
     return (
-        <div className="TelaFinal">
+        <div className="TelaHorario">
             <div className="titulo">
-                <h1>Pedido feito com sucesso!</h1>
+                <h1>Selecione o horário</h1>
             </div>
             <div className="Conteudo">
-                <div className="filmes">
-                <p className="">aaaaaa</p>
-                <p className="descricao">aaaaaa</p>
-                </div>
-                <div className="ingressos">
-                <p>aaaaaa</p>
-                <p>aaaaaa</p>
-                </div>
-                <div className="comprador">
-                   <p>aaaaaa</p>
-                   <p>aaaaaa</p>
-                </div>
-                
-                
-                <div className="reserva"><p>Voltar para Home</p></div>
+                <h1>Dia e Data</h1>
+                <div className="horario">horario1</div>
+                <div className="horario">horario1</div>
+            </div>
+            <div className="footer" >
+                <div className="footerimg"></div>
+                <h1>footer</h1>
             </div>
         </div>
 
     )
 }
-export default TelaFinal;
+export default TelaAssentos;

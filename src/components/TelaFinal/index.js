@@ -1,22 +1,30 @@
 import "./style.css";
 
-function TelaHorario() {
+function TelaFinal() {
     return (
-        <div className="TelaHorario">
+        <div className="TelaFinal">
             <div className="titulo">
-                <h1>Selecione o horário</h1>
+                <h1>Pedido feito com sucesso!</h1>
             </div>
             <div className="Conteudo">
-                <h1>Dia e Data</h1>
-                <div className="horario">horario1</div>
-                <div className="horario">horario1</div>
-            </div>
-            <div className="footer" >
-                <div className="footerimg"></div>
-                <h1>footer</h1>
+                <div className="filmes">
+                <p className="">aaaaaa</p>
+                <p className="descricao">aaaaaa</p>
+                </div>
+                <div className="ingressos">
+                <p>aaaaaa</p>
+                <p>aaaaaa</p>
+                </div>
+                <div className="comprador">
+                   <p>aaaaaa</p>
+                   <p>aaaaaa</p>
+                </div>
+                
+                
+                <div className="reserva"><p>Voltar para Home</p></div>
             </div>
         </div>
 
     )
 }
-export default TelaHorario;
+export default TelaFinal;

@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 
 function TelaHorario() {
     const { idFilme } = useParams();
-    const [ times, setTimes ] = useState([]);
+    const [times, setTimes] = useState([]);
     const [footer, setFooter] = useState([])
 
     useEffect(() => {
@@ -17,12 +17,11 @@ function TelaHorario() {
         promise.then((result) => {
             setTimes(result.data.days);
             setFooter(result.data);
-            console.log(result.data)
+            console.log(result.data.title)
         })
     }, [])
 
-    console.log(times)
-   
+    
 
     return (
         <div className="TelaHorario">
@@ -30,21 +29,26 @@ function TelaHorario() {
                 <h1>Selecione o horário</h1>
             </div>
             <div className="Conteudo">
-            {times.map((time) => {
+                {times.map((time, index) => {
+
+                    const { weekday, date, showtimes } = time;
+
+                    console.log(showtimes)
+
                     return (
-                        <div className="conteudo" key={time.id}>
-                            <h1>{time.weekday}/{time.date}</h1>
+                        <div className="conteudo" key={index} >
+                            <h1>{weekday} - {date}</h1>
+
                             <div className="horarios">
-                                {times.map((time2) => {
-                            <div className="horario">{time.showtime[0].name}</div>
-                            <div className="horario1">{time.showtime[1].name}</div>
+                                {showtimes.map((elemento) => {
+                                    return (<Link to={`/assentos/${elemento.id}`}> <div className="horario">{elemento.name}</div> </Link>)
                                 })}
                             </div>
                         </div>
                     )
-                })} 
+                })}
 
-            <Footer  imagem = {footer.posterURL} titulo = {footer.title} />
+                <Footer imagem={footer.posterURL} titulo={footer.title} />
             </div>
         </div>
     )
