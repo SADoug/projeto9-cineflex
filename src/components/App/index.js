@@ -16,9 +16,9 @@ function App() {
       <Header />
       <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/sessoes/:idFilme" element={<TelaFinal />} />
+      <Route path="/sessoes/:idFilme" element={<TelaHorario />} />
       <Route path="/" element={<TelaAssentos />} />
-      <Route path="/" element={<TelaHorario />} />
+      <Route path="/" element={<TelaFinal />} /> 
       <Route path="/" element={<BrowserRouter />} />
       </Routes>
     </BrowserRouter>

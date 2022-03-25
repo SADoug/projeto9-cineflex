@@ -1,7 +1,9 @@
 import "./style.css";
+import {useParams} from 'react-router-dom'
+
 
 function TelaHorario() {
-    return (
+    const{idFilme} = useParams();    return (
         <div className="TelaHorario">
             <div className="titulo">
                 <h1>Selecione o horário</h1>
