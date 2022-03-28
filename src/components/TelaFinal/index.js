@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function TelaFinal() {
@@ -21,7 +22,7 @@ function TelaFinal() {
                 </div>
                 
                 
-                <div className="reserva"><p>Voltar para Home</p></div>
+               <Link to={"/"}> <div className="reserva"><p>Voltar para Home</p></div></Link>
             </div>
         </div>
 

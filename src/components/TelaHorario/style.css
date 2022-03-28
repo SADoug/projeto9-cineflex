@@ -47,7 +47,7 @@ align-items: center;
 }
 
 .TelaHorario .footer {
-    position: fixed;
+position: fixed;
 width: 375px;
 height: 117px;
 left: 0px;
@@ -60,8 +60,8 @@ border: 1px solid #9EADBA;
     
     width: 169px;
     height: 40px;
-    left: 88px;
-    bottom: 39px;
+    margin-left: 30px;
+    margin-top: 40px;
     
     font-family: 'Roboto';
     font-style: normal;

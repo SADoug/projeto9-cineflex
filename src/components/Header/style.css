@@ -1,5 +1,5 @@
 .Header {
-position: absolute;
+position: fixed;
 width: 375px;
 height: 67px;
 left: 0px;
@@ -7,7 +7,7 @@ top: 0px;
 background: #C3CFD9;
 } 
 .Header h1 {    
-position: absolute;
+
 width: 375px;
 height: 67px;
 top: 0px;

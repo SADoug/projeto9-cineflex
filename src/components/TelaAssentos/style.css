@@ -1,48 +1,215 @@
-.TelaFinal .titulo {
-    position: absolute;
+.TelaAssentos {
+    
+    justify-content: center;
+}
+.TelaAssentos .conteudo .bolinhas {
+width: 26px;
+height: 26px;
+background: #C3CFD9;
+border: 1px solid #808F9D;
+box-sizing: border-box;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 7px;
+margin-bottom: 7px;
+}
+.TelaAssentos .conteudo {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-top: -50px;
+}
+.TelaAssentos .titulo {
+    
     width: 374px;
     height: 110px;
-    left: 0px;
-    top: 67px;
+   
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
     justify-content: center;
-    color: #247A6B;
-}
-
-
-.TelaFinal .filmes {
-
-  
-
-}
-
-.filmes .titulo {
+    letter-spacing: 0.04em;
     
+    color: #293845;
+    }
     
+.TelaAssentos .footer {
+    position: fixed;
+    width: 375px;
+    height: 117px;
+    left: 0px;
+    bottom: 0px;
+    background: #DFE6ED;
+    border: 1px solid #9EADBA;
 }
-.filmes .descricao {
 
+.TelaAssentos .status{
+    display: flex;
 }
 
-.TelaFinal .reserva {
-position: absolute;
+.TelaAssentos .status .disponivel div {
+
+    width: 24px;
+    height: 24px;
+    background: #C3CFD9;
+    border: 1px solid #7B8B99;
+    box-sizing: border-box;
+    border-radius: 17px;
+}
+
+.TelaAssentos .status .disponivel h1 {
+    width: 91px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.013em;
+    color: #4E5A65;
+}
+
+.TelaAssentos .status .selecionado div {
+    width: 25px;
+    height: 25px;
+    background: #8DD7CF;
+    border: 1px solid #1AAE9E;
+    box-sizing: border-box;
+    border-radius: 17px;
+}
+.TelaAssentos .status .selecionado h1 {
+    width: 91px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.013em;
+    
+    color: #4E5A65;
+}
+
+.TelaAssentos .status .indisponivel div {
+    width: 24px;
+    height: 24px;
+    background: #FBE192;
+    border: 1px solid #F7C52B;
+    box-sizing: border-box;
+    border-radius: 17px;
+}
+.TelaAssentos .status .indisponivel h1 {
+    width: 91px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.013em;
+    
+    color: #4E5A65;
+}
+
+.TelaAssentos .status {
+    margin-top: 130px;
+    margin-left: 0px;
+}
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -55px;
+}
+
+.dados .nome h1{
+   
+    width: 327px;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #293845;
+    margin-top: 10px;
+}
+.dados .nome input{
+    width: 327px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.dados .cpf h1 {
+width: 327px;
+height: 25px;
+left: 24px;
+top: 555px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #293845;
+margin-top: 10px;
+}
+.dados .cpf input {
+width: 327px;
+height: 51px;
+left: 24px;
+top: 580px;
+
+background: #FFFFFF;
+border: 1px solid #D5D5D5;
+box-sizing: border-box;
+border-radius: 3px;
+margin-top: 10px;
+}
+
+.TelaAssentos .reserva {
+color: #FFFFFF;
 width: 225px;
 height: 42px;
-left: 74px;
-top: 622px;
+background: #E8833A;
+border-radius: 3px;
+margin-top: 57px;
 display: flex;
 justify-content: center;
 align-items: center;
-color: #FFFFFF;
-background: #E8833A;
-border-radius: 3px;
+
+}
+
+.selecionado2 {
+    background: #8DD7CF!important; 
+}
+
+.disponivel2 {
+    background: #C3CFD9!important;
+}
+.indisponivel2 {
+    background: yellow!important;
 }

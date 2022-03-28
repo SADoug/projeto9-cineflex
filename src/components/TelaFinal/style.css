@@ -1,98 +1,48 @@
-.TelaHorario .titulo {
+.TelaFinal .titulo {
     position: absolute;
-width: 374px;
-height: 110px;
-left: 0px;
-top: 67px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-letter-spacing: 0.04em;
-
-color: #293845;
-}
-
-.TelaHorario .conteudo {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.TelaHorario .horario {
+    width: 374px;
+    height: 110px;
+    left: 0px;
+    top: 67px;
     
-position: absolute;
-width: 83px;
-height: 43px;
-left: 23px;
-top: 227px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    justify-content: center;
+    color: #247A6B;
+}
 
+
+.TelaFinal .filmes {
+
+  
+
+}
+
+.filmes .titulo {
+    
+    
+}
+.filmes .descricao {
+
+}
+
+.TelaFinal .reserva {
+position: absolute;
+width: 225px;
+height: 42px;
+left: 74px;
+top: 622px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
 background: #E8833A;
 border-radius: 3px;
-}
-
-.Conteudo h1 {
-    position: absolute;
-    width: 241px;
-    height: 35px;
-    left: 24px;
-    top: 170px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    
-    color: #293845;
-}
-
-.TelaHorario .footer {
-    position: absolute;
-width: 375px;
-height: 117px;
-left: 0px;
-bottom: 0px;
-
-background: #DFE6ED;
-border: 1px solid #9EADBA;
-}
-
-.footer h1 {
-    position: absolute;
-    width: 169px;
-    height: 40px;
-    left: 88px;
-    bottom: 39px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    
-    color: #293845;
-
-}
-.footer .footerimg {
-    
-position: absolute;
-width: 64px;
-height: 89px;
-left: 10px;
-bottom: 14px;
-
-background: #FFFFFF;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-border-radius: 2px;
 }

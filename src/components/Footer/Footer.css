@@ -8,6 +8,7 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 border-radius: 2px;
 }
 .footer .h1 {
+
 width: 169px;
 height: 40px;
 font-family: 'Roboto';
@@ -21,5 +22,6 @@ align-items: center;
 color: #293845;
 }
 .footer {
+    position: fixed;
     display: flex;
 }

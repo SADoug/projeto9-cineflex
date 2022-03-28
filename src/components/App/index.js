@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import  Header from "../Header"
 import HomePage from "../HomePage";
-import TelaFinal from "../TelaAssentos";
+import TelaFinal from "../TelaFinal";
 import TelaAssentos from "../TelaAssentos";
 import TelaHorario from "../TelaHorario";
 import "./style.css";
