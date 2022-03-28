@@ -1,10 +1,7 @@
 .TelaFinal .titulo {
-    position: absolute;
+   
     width: 374px;
     height: 110px;
-    left: 0px;
-    top: 67px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -18,27 +15,118 @@
     color: #247A6B;
 }
 
-
-.TelaFinal .filmes {
-
+.TelaFinal .Conteudo {
   
-
+}
+.TelaFinal .filmes {
+    margin-top: 250px;
 }
 
 .filmes .titulo {
-    
-    
+width: 374px;
+height: 110px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #293845;
+
 }
 .filmes .descricao {
 
+    
+    width: 374px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #293845;
+    margin-top: -30px;
 }
 
+.ingressos .titulo {
+    width: 374px;
+    height: 110px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #293845;
+    margin-top: -30px; 
+    
+    }
+.ingressos .descricao {
+
+    
+        width: 374px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        color: #293845;
+        margin-top: -30px;
+    }
+.comprador .titulo {
+        width: 374px;
+        height: 110px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        margin-top: -30px;
+        color: #293845;
+        
+        }
+.comprador .descricao {
+    
+        
+            width: 374px;
+            height: 110px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 0.04em;
+            color: #293845;
+            margin-top: -30px;
+        }
+
+
+
 .TelaFinal .reserva {
-position: absolute;
+
 width: 225px;
 height: 42px;
-left: 74px;
-top: 622px;
+
 display: flex;
 justify-content: center;
 align-items: center;

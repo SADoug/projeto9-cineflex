@@ -1,9 +1,10 @@
 import "./style.css";
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useLocation } from 'react-router-dom'
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react"
-import Footer from "../Footer/Footer";
+import Footer from "./Footer";
+
 
 
 function TelaHorario() {
@@ -41,14 +42,19 @@ function TelaHorario() {
 
                             <div className="horarios">
                                 {showtimes.map((elemento) => {
-                                    return (<Link to={`/assentos/${elemento.id}`}> <div className="horario">{elemento.name}</div> </Link>)
+                                    let data = elemento.name
+
+                                    return (<Link to={`/assentos/${elemento.id}`} state={{
+                                        data: {date},
+                                        elemento: {data}
+                                    }}> <div className="horario">{elemento.name}</div> </Link>)
                                 })}
                             </div>
                         </div>
                     )
                 })}
 
-                <Footer imagem={footer.posterURL} titulo={footer.title} />
+                <Footer imagem={footer.posterURL} titulo={footer.title}  />
             </div>
         </div>
     )

@@ -10,6 +10,8 @@ return (
 </div>
 <div className="txt">
 <h1>{props.titulo}</h1>
+<h1>{props.horario}</h1>
+<h1>{props.weekday}</h1>
 </div>
 </div> 
 </>

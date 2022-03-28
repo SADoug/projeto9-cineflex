@@ -20,15 +20,13 @@ margin-bottom: 7px;
     height: 50px;
     display: flex;
     flex-wrap: wrap;
-   
+    margin-left:20px ;
     margin-top: -50px;
 }
 .TelaAssentos .titulo {
     
     width: 374px;
     height: 110px;
-   
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -39,8 +37,10 @@ margin-bottom: 7px;
     text-align: center;
     justify-content: center;
     letter-spacing: 0.04em;
-    
     color: #293845;
+
+    margin-top: -120px;
+    margin-bottom: 30px;
     }
     
 .TelaAssentos .footer {
@@ -55,8 +55,25 @@ margin-bottom: 7px;
 
 .TelaAssentos .status{
     display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 20px;
 }
-
+.TelaAssentos .status .disponivel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TelaAssentos .status .selecionado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TelaAssentos .status .indisponivel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .TelaAssentos .status .disponivel div {
 
     width: 24px;
@@ -88,6 +105,8 @@ margin-bottom: 7px;
     border: 1px solid #1AAE9E;
     box-sizing: border-box;
     border-radius: 17px;
+    display: flex;
+    justify-content: center;
 }
 .TelaAssentos .status .selecionado h1 {
     width: 91px;
@@ -135,7 +154,7 @@ margin-bottom: 7px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -55px;
+    margin-left: ;
 }
 
 .dados .nome h1{
@@ -200,6 +219,7 @@ margin-top: 57px;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-left: 80px;
 
 }
 
@@ -211,5 +231,5 @@ align-items: center;
     background: #C3CFD9!important;
 }
 .indisponivel2 {
-    background: yellow!important;
+    background: #FBE192!important;
 }
